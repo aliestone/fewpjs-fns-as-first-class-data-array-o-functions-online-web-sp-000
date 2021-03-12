@@ -23,11 +23,11 @@ function leashDog (dogName, dogBreed) {
   return `Leash ${dogName} the ${dogBreed}`;
 }
 
-var routine [
+var routine {
   wakeDog
   walkToPark
   throwFrisbee
   walkHome
   unleashDog
   leashDog
-]
+}

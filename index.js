@@ -26,5 +26,5 @@ function leashDog (dogName, dogBreed) {
 var routine = [wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog]
 
 function exerciseDog (dogName,dogBreed) {
-  return routine.exerciseDog
+  return routine.every
 }

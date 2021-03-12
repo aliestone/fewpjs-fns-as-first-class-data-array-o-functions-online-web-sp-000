@@ -22,3 +22,12 @@ function unleashDog (dogName, dogBreed) {
 function leashDog (dogName, dogBreed) {
   return `Leash ${dogName} the ${dogBreed}`;
 }
+
+var routine [
+  wakeDog
+  walkToPark
+  throwFrisbee
+  walkHome
+  unleashDog
+  leashDog
+]

@@ -26,5 +26,12 @@ function leashDog (dogName, dogBreed) {
 var routine = [wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog]
 
 function exerciseDog (dogName,dogBreed) {
-  return routine.forEach(exerciseDog)
+  return routine.forEach()
 }
+
+
+* Iterate over the `routine` `Array`
+* Call each function in the array and
+* pass the `dogName` and `dogBreed` received by `exerciseDog()` to the function as they are _called_
+* capture the result of each function's call
+* return an `Array` of all those functions' return values
